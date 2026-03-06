@@ -1,0 +1,1 @@
+PyQt6>=6.5.0python-a2s>=1.3.0requests>=2.31.0python-dotenv>=1.0.0
