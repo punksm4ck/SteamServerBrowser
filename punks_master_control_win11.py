@@ -5,9 +5,8 @@ from PyQt6.QtWidgets import (QApplication, QMainWindow, QTableWidget, QTableWidg
                              QHBoxLayout, QLabel, QGridLayout, QTabWidget, QFrame, QTextEdit, QMenu, QComboBox)
 from PyQt6.QtCore import Qt, pyqtSignal
 from PyQt6.QtGui import QAction, QIcon
-from dotenv import load_dotenv
+# python-dotenv removed (not installed on macOS; the .env path was Windows-only). STEAM_API_KEY: environment only.
 
-load_dotenv('C:/Scripts/.env')
 
 class NumericItem(QTableWidgetItem):
     def __lt__(self, other):
